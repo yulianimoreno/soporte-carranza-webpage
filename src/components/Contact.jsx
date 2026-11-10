@@ -49,15 +49,13 @@ return (
           <div className="whatsapp-form-icon">
             <MessageCircle size={23} />
           </div>
-          <span>CONTACTO DIRECTO</span>
-          <h3>¿Qué necesitas resolver?</h3>
-          <p>
-            Completa estos datos y prepararemos un mensaje para WhatsApp.
-          </p>
+          
+          <h3>CONTACTO DIRECTO</h3>
+          
         </div>
 
         <label>
-          Tu nombre
+          
           <input
             name="name"
             value={form.name}
@@ -69,7 +67,7 @@ return (
         </label>
 
         <label>
-          Servicio de tu interés
+          Servicio de interés
           <select
             name="service"
             value={form.service}
@@ -84,7 +82,6 @@ return (
         </label>
 
         <label>
-          ¿Cómo podemos ayudarte?
           <textarea
             name="message"
             value={form.message}
